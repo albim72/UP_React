@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class Pojazd {
+            constructor(nazwa, model) {
+                this.nazwa = nazwa;
+                this.model = model;
+            }
+
+            getName() {
+                return this.nazwa
+
+            }
+            getModel() {
+                return this.model
+            }
+        }
+
+        let poj = new Pojazd('Audi', 'Q7');
+        console.log(poj.getModel())
+        console.log(poj.getName())
+
+        class Motocykl extends Pojazd {
+            constructor(nazwa) {
+                super(nazwa, 'motocykl')
+            }
+            getName() {
+                return 'to jest motocykl -> ' + super.getName();
+            }
+        }
+
+        let moto = new Motocykl('Harley Dividson')
+        console.log(moto.getModel())
+        console.log(moto.getName())
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
