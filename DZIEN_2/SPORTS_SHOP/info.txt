@@ -1,0 +1,1 @@
+stwórz nowy projekt react js i zmigruj projekt z wyjątkiem modułów node, lub odpal projekt i doisntaluj noda
