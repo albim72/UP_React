@@ -1,0 +1,9 @@
+import MyComponent from "./components/MyComponent";
+
+function App() {
+  <div className="App">
+    <MyComponent/>
+  </div>
+}
+
+export default App
