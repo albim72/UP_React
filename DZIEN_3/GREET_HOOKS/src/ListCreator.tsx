@@ -24,5 +24,7 @@ const ListCreator: FC<ListItems> = React.memo(({listItems}:ListItems) => {
             {renderItems.current}
         </React.Fragment>
     )
-    
+
 })
+
+export default ListCreator
